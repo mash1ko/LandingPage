@@ -1,0 +1,412 @@
+
+* {
+    /* text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal; */
+    margin: 0px;
+    
+}
+.work-management {
+
+    /* Work-management */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 140px 220px;
+    gap: 100px;
+
+    position: absolute;
+    height: 1588px;
+    left: 0px;
+    right: 0px;
+    top: 921px;
+
+    border: solid red;
+}
+
+.block {
+    /* Block */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1480px;
+    height: 1308px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border: solid blue;
+}
+
+.content-one {
+    /* Content */
+    width: 1480px;
+    height: 547px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /* gap: 60px; */
+    isolation: isolate;
+
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border: solid yellow;
+
+}
+
+ .background-image {  /*გასასწორებელია*/
+    position: absolute;
+    
+    height: 448.51806640625px;
+    width: 602.8355102539062px;
+    left: 0px;
+    top: 405px;
+    border-radius: 0px;
+
+    
+    /* left: -25.82%;
+    right: 85.09%;
+    top: 22.85%;
+    bottom: -4.85%; */
+    
+    mix-blend-mode: multiply;
+    opacity: 0.2;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+    border: solid red;
+
+    
+    
+}
+
+.headline-one{
+    /* Headline */
+    width: 672px;
+    height: 411px;
+    top: 68px;
+
+
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 60px; */
+
+   
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    z-index: 1;
+
+    border: solid blueviolet;
+
+}
+
+.text-block-one {
+    /* Text-block */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 672px;
+    height: 288px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    border: solid rosybrown;
+    
+}
+
+.text-block-one h1 {
+    /* Project Management */
+
+    width: 672px;
+    height: 174px;
+
+    /* Header/H1 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+
+    color: #212529;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+
+    
+}
+
+.text-block-one p {
+    width: 672px;
+    height: 90px;
+    top: 198px;
+    
+    /* Paragraph/P2/Regular */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: -0.02em;
+    
+    color: #212529;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+    
+}
+
+.button-one {
+    /* Btn-get-started */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+
+    width: 201px;
+    height: 63px;
+
+    background: #4F9CF9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.image-container {
+    /* Image-container */
+
+    width: 748px;
+    height: 547px;
+
+    /* Primary/100 */
+    background: #C4DEFD;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+/* ---------------------------------------------------------------- */
+
+.content-two {
+    /* Content */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1480px;
+    height: 661px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border: solid yellow;
+
+}
+
+.work-together-image {
+
+    width: 710px;
+    height: 661px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.headline-two{
+
+    /* Headline */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    width: 670px;
+    height: 294px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+    border: solid blueviolet;
+
+}
+
+.text-block-two {
+    /* Text-block */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 670px;
+    height: 171px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    border: solid rosybrown;
+
+}
+
+.text-block-two h1 {
+
+/* Work together */
+
+width: 670px;
+height: 87px;
+
+/* Header/H1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 87px;
+letter-spacing: -0.02em;
+
+color: #212529;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+}
+
+.text-block-two p {
+position: absolute;
+margin-top: 111px;
+
+width: 670px;
+height: 60px;
+
+/* Paragraph/P2/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: -0.02em;
+
+color: #212529;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+border: solid red;
+}
+
+
+.button-two{
+    /* Btn-get-started */
+    position: absolute;
+    margin-top: 231px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+
+    width: 186px;
+    height: 63px;
+
+    background: #4F9CF9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}

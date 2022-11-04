@@ -566,7 +566,7 @@ button a {
 
 
 .price-board {
-   /* Price list */
+    /* Price list */
 
     /* Auto layout */
     display: flex;
@@ -580,7 +580,6 @@ button a {
     height: 761px;
 
 
-    
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -590,6 +589,7 @@ button a {
 
 .block-four {
     
+    /* Block */
 
     /* Auto layout */
     display: flex;
@@ -602,6 +602,7 @@ button a {
     width: 1481px;
     height: 992px;
 
+
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -609,6 +610,8 @@ button a {
 
 }
 .heading-four {
+
+    /* Heading */
 
     /* Auto layout */
     display: flex;
@@ -777,35 +780,97 @@ color: #FFFFFF;
 
 }
 
-
+/* //////////////////////////////////////////////////////////////////////// */
 
 .free {
-/* Price-board */
+    /* Price-board */
 
-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 44px;
+    gap: 25px;
+
+    width: 472.33px;
+    height: 634px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    
+
+}
+
+.text-block-price-list {
+/* Text-block-01 */
 
 /* Auto layout */
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: flex-start;
-padding: 40px 44px;
+padding: 0px;
 gap: 25px;
 
-width: 472.33px;
-height: 634px;
+width: 384.33px;
+height: 153px;
 
-background: #FFFFFF;
-border: 1px solid #FFE492;
-border-radius: 10px;
 
 /* Inside auto layout */
 flex: none;
 order: 0;
-flex-grow: 1;
+align-self: stretch;
+flex-grow: 0;
 
 }
 
+.personal .text-block-price-list {
+
+margin-left: 44px;
+
+}
+
+.personal ul {
+
+    margin-left: 44px;
+}
+
+.personal button {
+    margin-left: 44px;
+}
+.bullets {
+/* Bullet-point */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+width: 384.33px;
+height: 300px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+ul {
+    gap: 19px;
+}
 .personal {
 /* Price-board */
 
@@ -814,8 +879,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-padding-left: 44px;
 gap: 25px;
+
 
 width: 472.33px;
 height: 761px;
@@ -832,22 +897,19 @@ flex-grow: 1;
 }
 
 .personal p {
-
     color: #043873;
-
 }
 .personal h4 {
     color: #043873;
-
 }
 .personal {    
     color: #043873;
 }
 
-
 .organization {
 
 /* Price-board */
+
 
 box-sizing: border-box;
 
@@ -872,3 +934,14 @@ order: 2;
 flex-grow: 1;
 
 }
+
+ul {
+    list-style-image: url("/img/Icon.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+

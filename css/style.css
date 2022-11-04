@@ -70,31 +70,36 @@
 
 }
 
- .background-image {  /*გასასწორებელია*/
+ .background-image {  
     position: absolute;
-    
     height: 448.51806640625px;
     width: 602.8355102539062px;
     left: 0px;
     top: 405px;
     border-radius: 0px;
-
-    
-    /* left: -25.82%;
-    right: 85.09%;
-    top: 22.85%;
-    bottom: -4.85%; */
-    
     mix-blend-mode: multiply;
-    opacity: 0.2;
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
-  
+    opacity: 0.2;  
 }
+
+.element-one {
+
+    /* Element */
+
+position: absolute;
+height: 28.1956940206237793px;
+width: 274.0001220703125px;
+top: 480px;
+
+}
+.element-two  {
+
+    position: absolute;
+    height: 30.111492156982422px;
+    width: 318.7454833984375px;
+    left: 955px;
+    top: 200px;
+}
+
 
 .headline-one{
     /* Headline */
@@ -451,9 +456,9 @@ button a {
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-
-
 }
+
+
 
 .text-block-three .text-one {
 

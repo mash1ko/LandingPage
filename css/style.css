@@ -6,6 +6,165 @@
     font-style: normal;
     
 }
+.Hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 140px 220px;
+    isolation: isolate;
+
+    position: absolute;
+    height: 829px;
+    left: 0px;
+    right: 0px;
+    top: 92px;
+    width: 1921px;
+background: #FFFFFF;
+}
+.ElementTwo{
+    position: absolute;
+    width: 2651.8px;
+    left: calc(50% - 2651.8px/2 - 0.1px);px;
+    top: 23.19%;
+    bottom: 10.82%;
+
+    opacity: 0.9;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.Block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 1480px;
+    height: 549px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+.Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    
+    width: 656px;
+    height: 361px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
+}
+.Text-block-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+
+    width: 656px;
+    height: 238px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+   
+}
+.Text-block-header h1{
+    width: 656px;
+    height: 154px;
+    
+    /* Header/H2 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    
+    color: #4F9CF9;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+.Text-block-header p{
+    width: 656px;
+    height: 60px;
+    
+    /* Paragraph/P2/Regular */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: -0.02em;
+    
+    color: #4F9CF9;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Btn-free-trial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 219px;
+    height: 63px;
+
+    background: #4F9CF9;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+   
+}
+.Image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 824px;
+    height: 549px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+   
+}
+
+/*-------------------------------- */
+/* WORK MANAGEMENT */
+
 .work-management {
 
     /* Work-management */
@@ -23,8 +182,8 @@
     left: 0px;
     right: 0px;
     top: 921px;
-
     width: 1921px;
+
 }
 
 .block {
